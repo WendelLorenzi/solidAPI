@@ -1,5 +1,6 @@
 import express from 'express'
 import { router } from './routes'
+require('dotenv').config()
 
 const app = express()
 
